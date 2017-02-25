@@ -1,0 +1,27 @@
+.colorButton{
+  padding: 20px;
+  border-radius: 25px;
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+}
+
+.red{
+  background-color: FireBrick;
+}
+
+.blue{
+  background-color: DeepSkyBlue;
+}
+
+.yellow{
+  background-color: Yellow;
+}
+
+.grey{
+  background-color: grey;
+}
+
+.hidden{
+  display: none;
+}
