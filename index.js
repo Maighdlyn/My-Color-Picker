@@ -1,18 +1,11 @@
-$(document).ready(function(){
+$(document).ready(function() {
 
-  $('.red').click(function(){
-    $('body').removeClass();
-    $('body').addClass('red');
-  });
+  $('button').addClass('buttonClass');
 
-  $('.blue').click(function(){
+  $('button').click(function() {
     $('body').removeClass();
-    $('body').addClass('blue');
-  });
-
-  $('.yellow').click(function(){
-    $('body').removeClass();
-    $('body').addClass('yellow');
+    var color = $(this).attr('class');
+    $('body').addClass(color);
   });
 
 });
