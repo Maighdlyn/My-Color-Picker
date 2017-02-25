@@ -1,27 +1,37 @@
-.colorButton{
+.buttonClass {
+  border-radius: 20px;
   padding: 20px;
-  border-radius: 25px;
-  width: 100px;
-  text-align: center;
-  display: inline-block;
+  margin: 5px;
 }
 
-.red{
+.red {
   background-color: FireBrick;
 }
 
-.blue{
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
   background-color: DeepSkyBlue;
 }
 
-.yellow{
-  background-color: Yellow;
+.purple {
+  background-color: RebeccaPurple;
 }
 
-.grey{
+.grey {
   background-color: grey;
 }
 
-.hidden{
-  display: none;
+.white {
+  background-color: white;
 }
