@@ -1,37 +1,77 @@
-.buttonClass {
+button {
   border-radius: 20px;
   padding: 20px;
   margin: 5px;
 }
 
-.red {
+.red{
   background-color: FireBrick;
 }
 
-.orange {
+.orange{
   background-color: orange;
 }
 
-.yellow {
+.yellow{
   background-color: yellow;
 }
 
-.green {
+.green{
   background-color: green;
 }
 
-.blue {
+.blue{
   background-color: DeepSkyBlue;
 }
 
-.purple {
+.purple{
   background-color: RebeccaPurple;
 }
 
-.grey {
+.grey{
   background-color: grey;
 }
 
-.white {
-  background-color: white;
+.white{
+  background-color:white;
+}
+
+.black{
+  background-color:black;
+}
+
+.redText{
+  color: FireBrick;
+}
+
+.orangeText{
+  color: Orange;
+}
+
+.yellowText{
+  color: yellow;
+}
+
+.greenText{
+  color: green;
+}
+
+.blueText{
+  color: DeepSkyBlue;
+}
+
+.purpleText{
+  color: RebeccaPurple;
+}
+
+.greyText{
+  color: grey;
+}
+
+.whiteText{
+  color:white;
+}
+
+.blackText{
+  color:black;
 }
